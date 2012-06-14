@@ -66,6 +66,7 @@ static NSString const *kBuddyRideFBAppID = @"406598512715014";
         navCon = [[UINavigationController alloc]
                 initWithRootViewController:self.loginViewController];
     }
+    navCon.navigationBarHidden = YES;
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = navCon;

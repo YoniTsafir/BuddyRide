@@ -83,6 +83,10 @@
 
     if (indexPath.section == 0) {
         cell.textLabel.text = [[self.facebookFriendsWithApp objectAtIndex:indexPath.row] name];
+        NSData *picData = [NSData dataWithContentsOfURL:[NSURL URLWithString:
+                           [NSString stringWithFormat:@"http://graph.facebook.com/%@/picture",
+                                     [[self.facebookFriendsWithApp objectAtIndex:indexPath.row] id]]]];
+        cell.imageView.image = [UIImage imageWithData:picData];
     } else {
         cell.textLabel.text = [[self.otherFacebookFriends objectAtIndex:indexPath.row] name];
     }

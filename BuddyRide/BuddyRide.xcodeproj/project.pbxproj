@@ -17,6 +17,8 @@
 		FCB98BDD158A3024007E979D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BDC158A3024007E979D /* Default.png */; };
 		FCB98BDF158A30A1007E979D /* Picture (2)-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BDE158A30A1007E979D /* Picture (2)-1.png */; };
 		FCB98BE1158A30AC007E979D /* Picture (2)-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BE0158A30AC007E979D /* Picture (2)-2.png */; };
+		FCB98BE3158A33F3007E979D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BE2158A33F3007E979D /* logo.png */; };
+		FCB98BE4158A33F3007E979D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BE2158A33F3007E979D /* logo.png */; };
 		FCC8B83A1589B01100101AAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B8391589B01100101AAC /* UIKit.framework */; };
 		FCC8B83C1589B01100101AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83B1589B01100101AAC /* Foundation.framework */; };
 		FCC8B83E1589B01100101AAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83D1589B01100101AAC /* CoreGraphics.framework */; };
@@ -126,6 +128,7 @@
 		FCB98BDC158A3024007E979D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FCB98BDE158A30A1007E979D /* Picture (2)-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picture (2)-1.png"; sourceTree = "<group>"; };
 		FCB98BE0158A30AC007E979D /* Picture (2)-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picture (2)-2.png"; sourceTree = "<group>"; };
+		FCB98BE2158A33F3007E979D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FCC8B8351589B01100101AAC /* BuddyRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC8B8391589B01100101AAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCC8B83B1589B01100101AAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -272,6 +275,7 @@
 		FCC8B82A1589B01100101AAC = {
 			isa = PBXGroup;
 			children = (
+				FCB98BE2158A33F3007E979D /* logo.png */,
 				FCB98BE0158A30AC007E979D /* Picture (2)-2.png */,
 				FCB98BDE158A30A1007E979D /* Picture (2)-1.png */,
 				FCB98BDC158A3024007E979D /* Default.png */,
@@ -625,6 +629,7 @@
 				FCB98BDD158A3024007E979D /* Default.png in Resources */,
 				FCB98BDF158A30A1007E979D /* Picture (2)-1.png in Resources */,
 				FCB98BE1158A30AC007E979D /* Picture (2)-2.png in Resources */,
+				FCB98BE3158A33F3007E979D /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,6 +641,7 @@
 				FCC8B8951589B9AE00101AAC /* FBDialog.bundle in Resources */,
 				FCC8B8981589BC0900101AAC /* FBConnect.bundle in Resources */,
 				FCB0D7C31589FE4300598A02 /* BRInviteViewController.xib in Resources */,
+				FCB98BE4158A33F3007E979D /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
