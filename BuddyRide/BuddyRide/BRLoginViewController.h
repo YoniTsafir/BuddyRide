@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FBRequest.h"
+#import "BRViewControllerWithFacebook.h"
 
-@interface BRFirstViewController : UIViewController
+@interface BRLoginViewController : BRViewControllerWithFacebook<FBRequestDelegate>
 
 @property (strong, nonatomic) IBOutlet UIButton *loginButton;
+
+- (IBAction)login;
 
 @end
