@@ -19,6 +19,14 @@
 		FCB98BE1158A30AC007E979D /* Picture (2)-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BE0158A30AC007E979D /* Picture (2)-2.png */; };
 		FCB98BE3158A33F3007E979D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BE2158A33F3007E979D /* logo.png */; };
 		FCB98BE4158A33F3007E979D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BE2158A33F3007E979D /* logo.png */; };
+		FCB98BF1158A396C007E979D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB98BF0158A396C007E979D /* MapKit.framework */; };
+		FCB98BF2158A396C007E979D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB98BF0158A396C007E979D /* MapKit.framework */; };
+		FCB98BF6158A39C4007E979D /* BRMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB98BF4158A39C4007E979D /* BRMapViewController.m */; };
+		FCB98BF7158A39C4007E979D /* BRMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB98BF4158A39C4007E979D /* BRMapViewController.m */; };
+		FCB98BF8158A39C4007E979D /* BRMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BF5158A39C4007E979D /* BRMapViewController.xib */; };
+		FCB98BF9158A39C4007E979D /* BRMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BF5158A39C4007E979D /* BRMapViewController.xib */; };
+		FCB98BFC158A3BCF007E979D /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB98BFB158A3BCF007E979D /* AddressAnnotation.m */; };
+		FCB98BFD158A3BCF007E979D /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB98BFB158A3BCF007E979D /* AddressAnnotation.m */; };
 		FCC8B83A1589B01100101AAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B8391589B01100101AAC /* UIKit.framework */; };
 		FCC8B83C1589B01100101AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83B1589B01100101AAC /* Foundation.framework */; };
 		FCC8B83E1589B01100101AAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83D1589B01100101AAC /* CoreGraphics.framework */; };
@@ -129,6 +137,12 @@
 		FCB98BDE158A30A1007E979D /* Picture (2)-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picture (2)-1.png"; sourceTree = "<group>"; };
 		FCB98BE0158A30AC007E979D /* Picture (2)-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picture (2)-2.png"; sourceTree = "<group>"; };
 		FCB98BE2158A33F3007E979D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FCB98BF0158A396C007E979D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FCB98BF3158A39C4007E979D /* BRMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRMapViewController.h; sourceTree = "<group>"; };
+		FCB98BF4158A39C4007E979D /* BRMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRMapViewController.m; sourceTree = "<group>"; };
+		FCB98BF5158A39C4007E979D /* BRMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRMapViewController.xib; sourceTree = "<group>"; };
+		FCB98BFA158A3BCF007E979D /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressAnnotation.h; path = ../MapsDirectionsPOC/MapsDirectionsPOC/AddressAnnotation.h; sourceTree = "<group>"; };
+		FCB98BFB158A3BCF007E979D /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressAnnotation.m; path = ../MapsDirectionsPOC/MapsDirectionsPOC/AddressAnnotation.m; sourceTree = "<group>"; };
 		FCC8B8351589B01100101AAC /* BuddyRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC8B8391589B01100101AAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCC8B83B1589B01100101AAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -253,6 +267,7 @@
 				FCC8B89B1589C9E200101B7A /* InneractiveAdSDK-v112-S.a in Frameworks */,
 				FCC8B89B1589C9E200101C3A /* CFNetwork.framework in Frameworks */,
 				FCB0D7A71589EAB700598A02 /* YAJLIOS.framework in Frameworks */,
+				FCB98BF1158A396C007E979D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +281,7 @@
 				FCC8B8971589B9AE00101AAC /* libfacebook_ios_sdk.a in Frameworks */,
 				FCC8B89B1589C9E200101B7B /* InneractiveAdSDK-v112-S.a in Frameworks */,
 				FCB0D7A81589EABB00598A02 /* YAJLIOS.framework in Frameworks */,
+				FCB98BF2158A396C007E979D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,7 @@
 		FCC8B8381589B01100101AAC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCB98BF0158A396C007E979D /* MapKit.framework */,
 				FCB0D7A61589EAB700598A02 /* YAJLIOS.framework */,
 				FCC8B89B1589C9E200101C39 /* CFNetwork.framework */,
 				FCC8B89B1589C9E200101AB1 /* SystemConfiguration.framework */,
@@ -317,6 +334,8 @@
 		FCC8B83F1589B01100101AAC /* BuddyRide */ = {
 			isa = PBXGroup;
 			children = (
+				FCB98BFA158A3BCF007E979D /* AddressAnnotation.h */,
+				FCB98BFB158A3BCF007E979D /* AddressAnnotation.m */,
 				FCC8B89B1589C9E200101C42 /* BRUser.h */,
 				FCC8B89B1589C9E200101C3F /* BRUser.m */,
 				FCC8B89B1589C9E200101C3E /* BRViewControllerWithFacebook.h */,
@@ -330,6 +349,9 @@
 				FCB0D7BE1589FE4300598A02 /* BRInviteViewController.m */,
 				FCB0D7BF1589FE4300598A02 /* BRInviteViewController.xib */,
 				FCC8B8401589B01100101AAC /* Supporting Files */,
+				FCB98BF3158A39C4007E979D /* BRMapViewController.h */,
+				FCB98BF4158A39C4007E979D /* BRMapViewController.m */,
+				FCB98BF5158A39C4007E979D /* BRMapViewController.xib */,
 			);
 			path = BuddyRide;
 			sourceTree = "<group>";
@@ -630,6 +652,7 @@
 				FCB98BDF158A30A1007E979D /* Picture (2)-1.png in Resources */,
 				FCB98BE1158A30AC007E979D /* Picture (2)-2.png in Resources */,
 				FCB98BE3158A33F3007E979D /* logo.png in Resources */,
+				FCB98BF8158A39C4007E979D /* BRMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +665,7 @@
 				FCC8B8981589BC0900101AAC /* FBConnect.bundle in Resources */,
 				FCB0D7C31589FE4300598A02 /* BRInviteViewController.xib in Resources */,
 				FCB98BE4158A33F3007E979D /* logo.png in Resources */,
+				FCB98BF9158A39C4007E979D /* BRMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,6 +728,8 @@
 				FCC8B89B1589C9E200101C3C /* BRViewControllerWithFacebook.m in Sources */,
 				FCB0D7C01589FE4300598A02 /* BRInviteViewController.m in Sources */,
 				FCC8B89B1589C9E200101C40 /* BRUser.m in Sources */,
+				FCB98BF6158A39C4007E979D /* BRMapViewController.m in Sources */,
+				FCB98BFC158A3BCF007E979D /* AddressAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,6 +771,8 @@
 				FCC8B89B1589C9E200101C3D /* BRViewControllerWithFacebook.m in Sources */,
 				FCB0D7C11589FE4300598A02 /* BRInviteViewController.m in Sources */,
 				FCC8B89B1589C9E200101C41 /* BRUser.m in Sources */,
+				FCB98BF7158A39C4007E979D /* BRMapViewController.m in Sources */,
+				FCB98BFD158A3BCF007E979D /* AddressAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -851,6 +879,7 @@
 					"\"${PROJECT_DIR}/StackMob/External/inneractive/lib/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/MapsDirectionsPOC/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -873,6 +902,7 @@
 					"\"${PROJECT_DIR}/StackMob/External/inneractive/lib/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/MapsDirectionsPOC/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

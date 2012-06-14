@@ -10,6 +10,7 @@
 #import "Facebook.h"
 #import "BRUser.h"
 #import "StackMob.h"
+#import "BRMapViewController.h"
 
 @interface BRInviteViewController()
 
@@ -175,6 +176,10 @@
             }];
 
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+
+    BRMapViewController *mapView = [[BRMapViewController alloc]
+            initWithNibName:@"BRMapViewController" bundle:nil];
+    [self.navigationController pushViewController:mapView animated:YES];
 }
 
 
