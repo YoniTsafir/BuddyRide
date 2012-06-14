@@ -12,5 +12,6 @@
 @interface BRInviteViewController : BRViewControllerWithFacebook<UITableViewDataSource, UITableViewDelegate, FBRequestDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) IBOutlet UIImageView *loadingBanner;
 
 @end

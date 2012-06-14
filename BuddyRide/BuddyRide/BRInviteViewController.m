@@ -22,6 +22,7 @@
 @implementation BRInviteViewController
 
 @synthesize tableView = _tableView;
+@synthesize loadingBanner = _loadingBanner;
 @synthesize facebookFriendsWithApp = _facebookFriendsWithApp;
 @synthesize otherFacebookFriends = _otherFacebookFriends;
 @synthesize usersById = _usersById;
@@ -45,6 +46,7 @@
 - (void)viewDidUnload
 {
     [self setTableView:nil];
+    [self setLoadingBanner:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -53,6 +55,7 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 
+    self.loadingBanner.hidden = NO;
     [self.facebook requestWithGraphPath:@"me/friends" andDelegate:self];
 }
 
@@ -112,7 +115,6 @@
 
 - (void)request:(FBRequest *)request didLoad:(id)result {
     NSArray *resultData = [result objectForKey:@"data"];
-    NSLog(@"data:%@", resultData);
     self.facebookFriendsWithApp = [NSMutableArray array];
     self.otherFacebookFriends = [NSMutableArray array];
     self.usersById = [NSMutableDictionary dictionaryWithCapacity:[resultData count]];
@@ -134,6 +136,7 @@
             [self.facebookFriendsWithApp addObject:user];
 
             [self.tableView reloadData];
+            self.loadingBanner.hidden = YES;
         }
 
     }];
