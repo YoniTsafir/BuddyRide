@@ -66,6 +66,7 @@
     NSString *facebookID = [result objectForKey:@"id"];
 
     [[NSUserDefaults standardUserDefaults] setObject:facebookID forKey:@"FBUserID"];
+    [[NSUserDefaults standardUserDefaults] setObject:[result objectForKey:@"name"] forKey:@"FBName"];
     [[NSUserDefaults standardUserDefaults] synchronize];
 
     if (facebookID != nil) {

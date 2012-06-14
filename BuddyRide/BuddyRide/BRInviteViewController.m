@@ -143,9 +143,23 @@
         user = [self.otherFacebookFriends objectAtIndex:indexPath.row];
     }
 
+    NSString *ourId = [[NSUserDefaults standardUserDefaults] objectForKey:@"FBUserID"];
+    NSString *ourName = [[NSUserDefaults standardUserDefaults] objectForKey:@"FBName"];
+
+    NSDictionary *rideArgs = [NSDictionary dictionaryWithObjectsAndKeys:user.id, @"driver", ourId, @"passenger",
+                                           @"waiting", @"status", nil];
+
+    [[StackMob stackmob]
+            post:@"ride" withArguments:rideArgs andCallback:^(BOOL success, id result) {
+        // nothing to check
+    }];
+
     [[StackMob stackmob]
             sendPushToUsersWithArguments:[NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInt:1],
-                                                                                    @"badge", @"hello sam!", @"alert", nil]
+                                                                                    @"badge",
+                                                                                    [NSString stringWithFormat:@"%@ wants you to come and get him!",
+                                                                                              ourName],
+                                                                                    @"alert", nil]
 
             withUserIds:[NSArray arrayWithObject:user.id]
             andCallback:^(BOOL success, id result) {
