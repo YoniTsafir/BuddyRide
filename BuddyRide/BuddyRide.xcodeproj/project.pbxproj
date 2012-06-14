@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC8B83A1589B01100101AAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B8391589B01100101AAC /* UIKit.framework */; };
+		FCC8B83C1589B01100101AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83B1589B01100101AAC /* Foundation.framework */; };
+		FCC8B83E1589B01100101AAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83D1589B01100101AAC /* CoreGraphics.framework */; };
+		FCC8B8441589B01100101AAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCC8B8421589B01100101AAC /* InfoPlist.strings */; };
+		FCC8B8461589B01100101AAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC8B8451589B01100101AAC /* main.m */; };
+		FCC8B84A1589B01100101AAC /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC8B8491589B01100101AAC /* BRAppDelegate.m */; };
+		FCC8B8521589B01100101AAC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B8511589B01100101AAC /* SenTestingKit.framework */; };
+		FCC8B8531589B01100101AAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B8391589B01100101AAC /* UIKit.framework */; };
+		FCC8B8541589B01100101AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83B1589B01100101AAC /* Foundation.framework */; };
+		FCC8B85C1589B01100101AAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCC8B85A1589B01100101AAC /* InfoPlist.strings */; };
+		FCC8B85F1589B01100101AAC /* BuddyRideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC8B85E1589B01100101AAC /* BuddyRideTests.m */; };
+		FCC8B8761589B7BE00101AAC /* BRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC8B8741589B7BE00101AAC /* BRFirstViewController.m */; };
+		FCC8B8771589B7BE00101AAC /* BRFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC8B8751589B7BE00101AAC /* BRFirstViewController.xib */; };
+		FCC8B8791589B7F600101AAC /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCC8B8781589B7F600101AAC /* FBConnect.bundle */; };
+		FCC8B8941589B9AE00101AAC /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCC8B8871589B9AE00101AAC /* FBDialog.bundle */; };
+		FCC8B8951589B9AE00101AAC /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCC8B8871589B9AE00101AAC /* FBDialog.bundle */; };
+		FCC8B8961589B9AE00101AAC /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B88D1589B9AE00101AAC /* libfacebook_ios_sdk.a */; };
+		FCC8B8971589B9AE00101AAC /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B88D1589B9AE00101AAC /* libfacebook_ios_sdk.a */; };
+		FCC8B8981589BC0900101AAC /* FBConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCC8B8781589B7F600101AAC /* FBConnect.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCC8B8551589B01100101AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC8B82C1589B01100101AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC8B8341589B01100101AAC;
+			remoteInfo = BuddyRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCC8B8351589B01100101AAC /* BuddyRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC8B8391589B01100101AAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCC8B83B1589B01100101AAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCC8B83D1589B01100101AAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCC8B8411589B01100101AAC /* BuddyRide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuddyRide-Info.plist"; sourceTree = "<group>"; };
+		FCC8B8431589B01100101AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCC8B8451589B01100101AAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCC8B8471589B01100101AAC /* BuddyRide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuddyRide-Prefix.pch"; sourceTree = "<group>"; };
+		FCC8B8481589B01100101AAC /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
+		FCC8B8491589B01100101AAC /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
+		FCC8B8501589B01100101AAC /* BuddyRideTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyRideTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC8B8511589B01100101AAC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FCC8B8591589B01100101AAC /* BuddyRideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuddyRideTests-Info.plist"; sourceTree = "<group>"; };
+		FCC8B85B1589B01100101AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCC8B85D1589B01100101AAC /* BuddyRideTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuddyRideTests.h; sourceTree = "<group>"; };
+		FCC8B85E1589B01100101AAC /* BuddyRideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddyRideTests.m; sourceTree = "<group>"; };
+		FCC8B8731589B7BE00101AAC /* BRFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRFirstViewController.h; sourceTree = "<group>"; };
+		FCC8B8741589B7BE00101AAC /* BRFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRFirstViewController.m; sourceTree = "<group>"; };
+		FCC8B8751589B7BE00101AAC /* BRFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRFirstViewController.xib; sourceTree = "<group>"; };
+		FCC8B8781589B7F600101AAC /* FBConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBConnect.bundle; path = "../submodules/facebook-ios-sdk/sample/FBConnect.bundle"; sourceTree = "<group>"; };
+		FCC8B8851589B9AE00101AAC /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		FCC8B8861589B9AE00101AAC /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		FCC8B8871589B9AE00101AAC /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		FCC8B8881589B9AE00101AAC /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		FCC8B8891589B9AE00101AAC /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		FCC8B88A1589B9AE00101AAC /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		FCC8B88B1589B9AE00101AAC /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		FCC8B88C1589B9AE00101AAC /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FCC8B88D1589B9AE00101AAC /* libfacebook_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfacebook_ios_sdk.a; sourceTree = "<group>"; };
+		FCC8B88E1589B9AE00101AAC /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FCC8B88F1589B9AE00101AAC /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FCC8B8901589B9AE00101AAC /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		FCC8B8911589B9AE00101AAC /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FCC8B8921589B9AE00101AAC /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FCC8B8931589B9AE00101AAC /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC8B8321589B01100101AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC8B83A1589B01100101AAC /* UIKit.framework in Frameworks */,
+				FCC8B83C1589B01100101AAC /* Foundation.framework in Frameworks */,
+				FCC8B83E1589B01100101AAC /* CoreGraphics.framework in Frameworks */,
+				FCC8B8961589B9AE00101AAC /* libfacebook_ios_sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC8B84C1589B01100101AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC8B8521589B01100101AAC /* SenTestingKit.framework in Frameworks */,
+				FCC8B8531589B01100101AAC /* UIKit.framework in Frameworks */,
+				FCC8B8541589B01100101AAC /* Foundation.framework in Frameworks */,
+				FCC8B8971589B9AE00101AAC /* libfacebook_ios_sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC8B82A1589B01100101AAC = {
+			isa = PBXGroup;
+			children = (
+				FCC8B8841589B9AE00101AAC /* facebook-ios-sdk */,
+				FCC8B8781589B7F600101AAC /* FBConnect.bundle */,
+				FCC8B83F1589B01100101AAC /* BuddyRide */,
+				FCC8B8571589B01100101AAC /* BuddyRideTests */,
+				FCC8B8381589B01100101AAC /* Frameworks */,
+				FCC8B8361589B01100101AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC8B8361589B01100101AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8B8351589B01100101AAC /* BuddyRide.app */,
+				FCC8B8501589B01100101AAC /* BuddyRideTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC8B8381589B01100101AAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8B8391589B01100101AAC /* UIKit.framework */,
+				FCC8B83B1589B01100101AAC /* Foundation.framework */,
+				FCC8B83D1589B01100101AAC /* CoreGraphics.framework */,
+				FCC8B8511589B01100101AAC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCC8B83F1589B01100101AAC /* BuddyRide */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8B8481589B01100101AAC /* BRAppDelegate.h */,
+				FCC8B8491589B01100101AAC /* BRAppDelegate.m */,
+				FCC8B8731589B7BE00101AAC /* BRFirstViewController.h */,
+				FCC8B8741589B7BE00101AAC /* BRFirstViewController.m */,
+				FCC8B8751589B7BE00101AAC /* BRFirstViewController.xib */,
+				FCC8B8401589B01100101AAC /* Supporting Files */,
+			);
+			path = BuddyRide;
+			sourceTree = "<group>";
+		};
+		FCC8B8401589B01100101AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8B8411589B01100101AAC /* BuddyRide-Info.plist */,
+				FCC8B8421589B01100101AAC /* InfoPlist.strings */,
+				FCC8B8451589B01100101AAC /* main.m */,
+				FCC8B8471589B01100101AAC /* BuddyRide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCC8B8571589B01100101AAC /* BuddyRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8B85D1589B01100101AAC /* BuddyRideTests.h */,
+				FCC8B85E1589B01100101AAC /* BuddyRideTests.m */,
+				FCC8B8581589B01100101AAC /* Supporting Files */,
+			);
+			path = BuddyRideTests;
+			sourceTree = "<group>";
+		};
+		FCC8B8581589B01100101AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8B8591589B01100101AAC /* BuddyRideTests-Info.plist */,
+				FCC8B85A1589B01100101AAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCC8B8841589B9AE00101AAC /* facebook-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8B8851589B9AE00101AAC /* Facebook.h */,
+				FCC8B8861589B9AE00101AAC /* FBConnect.h */,
+				FCC8B8871589B9AE00101AAC /* FBDialog.bundle */,
+				FCC8B8881589B9AE00101AAC /* FBDialog.h */,
+				FCC8B8891589B9AE00101AAC /* FBFrictionlessRequestSettings.h */,
+				FCC8B88A1589B9AE00101AAC /* FBLoginDialog.h */,
+				FCC8B88B1589B9AE00101AAC /* FBRequest.h */,
+				FCC8B88C1589B9AE00101AAC /* JSON.h */,
+				FCC8B88D1589B9AE00101AAC /* libfacebook_ios_sdk.a */,
+				FCC8B88E1589B9AE00101AAC /* NSObject+SBJSON.h */,
+				FCC8B88F1589B9AE00101AAC /* NSString+SBJSON.h */,
+				FCC8B8901589B9AE00101AAC /* SBJSON.h */,
+				FCC8B8911589B9AE00101AAC /* SBJsonBase.h */,
+				FCC8B8921589B9AE00101AAC /* SBJsonParser.h */,
+				FCC8B8931589B9AE00101AAC /* SBJsonWriter.h */,
+			);
+			name = "facebook-ios-sdk";
+			path = "../submodules/facebook-ios-sdk/lib/facebook-ios-sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC8B8341589B01100101AAC /* BuddyRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC8B8621589B01100101AAC /* Build configuration list for PBXNativeTarget "BuddyRide" */;
+			buildPhases = (
+				FCC8B8311589B01100101AAC /* Sources */,
+				FCC8B8321589B01100101AAC /* Frameworks */,
+				FCC8B8331589B01100101AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuddyRide;
+			productName = BuddyRide;
+			productReference = FCC8B8351589B01100101AAC /* BuddyRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCC8B84F1589B01100101AAC /* BuddyRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC8B8651589B01100101AAC /* Build configuration list for PBXNativeTarget "BuddyRideTests" */;
+			buildPhases = (
+				FCC8B84B1589B01100101AAC /* Sources */,
+				FCC8B84C1589B01100101AAC /* Frameworks */,
+				FCC8B84D1589B01100101AAC /* Resources */,
+				FCC8B84E1589B01100101AAC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC8B8561589B01100101AAC /* PBXTargetDependency */,
+			);
+			name = BuddyRideTests;
+			productName = BuddyRideTests;
+			productReference = FCC8B8501589B01100101AAC /* BuddyRideTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC8B82C1589B01100101AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BR;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = YoniTsafir;
+			};
+			buildConfigurationList = FCC8B82F1589B01100101AAC /* Build configuration list for PBXProject "BuddyRide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCC8B82A1589B01100101AAC;
+			productRefGroup = FCC8B8361589B01100101AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC8B8341589B01100101AAC /* BuddyRide */,
+				FCC8B84F1589B01100101AAC /* BuddyRideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC8B8331589B01100101AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC8B8441589B01100101AAC /* InfoPlist.strings in Resources */,
+				FCC8B8771589B7BE00101AAC /* BRFirstViewController.xib in Resources */,
+				FCC8B8791589B7F600101AAC /* FBConnect.bundle in Resources */,
+				FCC8B8941589B9AE00101AAC /* FBDialog.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC8B84D1589B01100101AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC8B85C1589B01100101AAC /* InfoPlist.strings in Resources */,
+				FCC8B8951589B9AE00101AAC /* FBDialog.bundle in Resources */,
+				FCC8B8981589BC0900101AAC /* FBConnect.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FCC8B84E1589B01100101AAC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC8B8311589B01100101AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC8B8461589B01100101AAC /* main.m in Sources */,
+				FCC8B84A1589B01100101AAC /* BRAppDelegate.m in Sources */,
+				FCC8B8761589B7BE00101AAC /* BRFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC8B84B1589B01100101AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC8B85F1589B01100101AAC /* BuddyRideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCC8B8561589B01100101AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC8B8341589B01100101AAC /* BuddyRide */;
+			targetProxy = FCC8B8551589B01100101AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCC8B8421589B01100101AAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC8B8431589B01100101AAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCC8B85A1589B01100101AAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC8B85B1589B01100101AAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC8B8601589B01100101AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCC8B8611589B01100101AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC8B8631589B01100101AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuddyRide/BuddyRide-Prefix.pch";
+				INFOPLIST_FILE = "BuddyRide/BuddyRide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCC8B8641589B01100101AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuddyRide/BuddyRide-Prefix.pch";
+				INFOPLIST_FILE = "BuddyRide/BuddyRide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCC8B8661589B01100101AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuddyRide.app/BuddyRide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuddyRide/BuddyRide-Prefix.pch";
+				INFOPLIST_FILE = "BuddyRideTests/BuddyRideTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FCC8B8671589B01100101AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuddyRide.app/BuddyRide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuddyRide/BuddyRide-Prefix.pch";
+				INFOPLIST_FILE = "BuddyRideTests/BuddyRideTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC8B82F1589B01100101AAC /* Build configuration list for PBXProject "BuddyRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC8B8601589B01100101AAC /* Debug */,
+				FCC8B8611589B01100101AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC8B8621589B01100101AAC /* Build configuration list for PBXNativeTarget "BuddyRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC8B8631589B01100101AAC /* Debug */,
+				FCC8B8641589B01100101AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCC8B8651589B01100101AAC /* Build configuration list for PBXNativeTarget "BuddyRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC8B8661589B01100101AAC /* Debug */,
+				FCC8B8671589B01100101AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC8B82C1589B01100101AAC /* Project object */;
+}

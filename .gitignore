@@ -1,0 +1,15 @@
+.DS_Store
+*.swp
+*~.nib
+
+build/
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+xcuserdata
+
+.idea/.name
+.idea/workspace.xml
+.idea/misc.xml
+.idea/dictionaries

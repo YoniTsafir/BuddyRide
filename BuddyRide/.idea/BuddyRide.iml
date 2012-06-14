@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/BuddyRide-9f7f25c1/Build/Products/Debug-iphonesimulator/BuddyRide.app">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/appCode10/DerivedData/BuddyRide-9f7f25c1/Build/Products/Debug-iphonesimulator/BuddyRide.app" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBConnect.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBConnect.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBDialog.bundle">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBDialog.bundle" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBDialog.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBDialog.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBFrictionlessRequestSettings.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBFrictionlessRequestSettings.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBLoginDialog.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBLoginDialog.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBRequest.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/FBRequest.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/Facebook.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/Facebook.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/JSON.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/JSON.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/NSObject+SBJSON.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/NSObject+SBJSON.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/NSString+SBJSON.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/NSString+SBJSON.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/SBJSON.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/SBJSON.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/SBJsonBase.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/SBJsonBase.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/SBJsonParser.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/SBJsonParser.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/SBJsonWriter.h">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/lib/facebook-ios-sdk/SBJsonWriter.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/sample/FBConnect.bundle">
+      <sourceFolder url="file://$MODULE_DIR$/../submodules/facebook-ios-sdk/sample/FBConnect.bundle" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+
