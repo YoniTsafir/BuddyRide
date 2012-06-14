@@ -13,6 +13,10 @@
 		FCB0D7C11589FE4300598A02 /* BRInviteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB0D7BE1589FE4300598A02 /* BRInviteViewController.m */; };
 		FCB0D7C21589FE4300598A02 /* BRInviteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB0D7BF1589FE4300598A02 /* BRInviteViewController.xib */; };
 		FCB0D7C31589FE4300598A02 /* BRInviteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB0D7BF1589FE4300598A02 /* BRInviteViewController.xib */; };
+		FCB98BDB158A3014007E979D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BDA158A3014007E979D /* Default@2x.png */; };
+		FCB98BDD158A3024007E979D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BDC158A3024007E979D /* Default.png */; };
+		FCB98BDF158A30A1007E979D /* Picture (2)-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BDE158A30A1007E979D /* Picture (2)-1.png */; };
+		FCB98BE1158A30AC007E979D /* Picture (2)-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BE0158A30AC007E979D /* Picture (2)-2.png */; };
 		FCC8B83A1589B01100101AAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B8391589B01100101AAC /* UIKit.framework */; };
 		FCC8B83C1589B01100101AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83B1589B01100101AAC /* Foundation.framework */; };
 		FCC8B83E1589B01100101AAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83D1589B01100101AAC /* CoreGraphics.framework */; };
@@ -118,6 +122,10 @@
 		FCB0D7BD1589FE4300598A02 /* BRInviteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRInviteViewController.h; sourceTree = "<group>"; };
 		FCB0D7BE1589FE4300598A02 /* BRInviteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRInviteViewController.m; sourceTree = "<group>"; };
 		FCB0D7BF1589FE4300598A02 /* BRInviteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRInviteViewController.xib; sourceTree = "<group>"; };
+		FCB98BDA158A3014007E979D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FCB98BDC158A3024007E979D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FCB98BDE158A30A1007E979D /* Picture (2)-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picture (2)-1.png"; sourceTree = "<group>"; };
+		FCB98BE0158A30AC007E979D /* Picture (2)-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picture (2)-2.png"; sourceTree = "<group>"; };
 		FCC8B8351589B01100101AAC /* BuddyRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC8B8391589B01100101AAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCC8B83B1589B01100101AAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -264,6 +272,10 @@
 		FCC8B82A1589B01100101AAC = {
 			isa = PBXGroup;
 			children = (
+				FCB98BE0158A30AC007E979D /* Picture (2)-2.png */,
+				FCB98BDE158A30A1007E979D /* Picture (2)-1.png */,
+				FCB98BDC158A3024007E979D /* Default.png */,
+				FCB98BDA158A3014007E979D /* Default@2x.png */,
 				FCC8B8841589B9AE00101AAC /* facebook-ios-sdk */,
 				FCC8B8781589B7F600101AAC /* FBConnect.bundle */,
 				FCC8B83F1589B01100101AAC /* BuddyRide */,
@@ -609,6 +621,10 @@
 				FCC8B8791589B7F600101AAC /* FBConnect.bundle in Resources */,
 				FCC8B8941589B9AE00101AAC /* FBDialog.bundle in Resources */,
 				FCB0D7C21589FE4300598A02 /* BRInviteViewController.xib in Resources */,
+				FCB98BDB158A3014007E979D /* Default@2x.png in Resources */,
+				FCB98BDD158A3024007E979D /* Default.png in Resources */,
+				FCB98BDF158A30A1007E979D /* Picture (2)-1.png in Resources */,
+				FCB98BE1158A30AC007E979D /* Picture (2)-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
