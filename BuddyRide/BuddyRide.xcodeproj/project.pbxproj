@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC320508158D093300EF6FB3 /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FC320507158D093300EF6FB3 /* AddressAnnotation.m */; };
+		FC320509158D093300EF6FB3 /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FC320507158D093300EF6FB3 /* AddressAnnotation.m */; };
 		FCB0D7A71589EAB700598A02 /* YAJLIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0D7A61589EAB700598A02 /* YAJLIOS.framework */; };
 		FCB0D7A81589EABB00598A02 /* YAJLIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0D7A61589EAB700598A02 /* YAJLIOS.framework */; };
 		FCB0D7C01589FE4300598A02 /* BRInviteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB0D7BE1589FE4300598A02 /* BRInviteViewController.m */; };
@@ -25,8 +27,6 @@
 		FCB98BF7158A39C4007E979D /* BRMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB98BF4158A39C4007E979D /* BRMapViewController.m */; };
 		FCB98BF8158A39C4007E979D /* BRMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BF5158A39C4007E979D /* BRMapViewController.xib */; };
 		FCB98BF9158A39C4007E979D /* BRMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB98BF5158A39C4007E979D /* BRMapViewController.xib */; };
-		FCB98BFC158A3BCF007E979D /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB98BFB158A3BCF007E979D /* AddressAnnotation.m */; };
-		FCB98BFD158A3BCF007E979D /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB98BFB158A3BCF007E979D /* AddressAnnotation.m */; };
 		FCC8B83A1589B01100101AAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B8391589B01100101AAC /* UIKit.framework */; };
 		FCC8B83C1589B01100101AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83B1589B01100101AAC /* Foundation.framework */; };
 		FCC8B83E1589B01100101AAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8B83D1589B01100101AAC /* CoreGraphics.framework */; };
@@ -128,6 +128,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC320506158D093300EF6FB3 /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
+		FC320507158D093300EF6FB3 /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
 		FCB0D7A61589EAB700598A02 /* YAJLIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJLIOS.framework; path = StackMob/External/libraries/YAJLIOS.framework; sourceTree = "<group>"; };
 		FCB0D7BD1589FE4300598A02 /* BRInviteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRInviteViewController.h; sourceTree = "<group>"; };
 		FCB0D7BE1589FE4300598A02 /* BRInviteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRInviteViewController.m; sourceTree = "<group>"; };
@@ -141,8 +143,6 @@
 		FCB98BF3158A39C4007E979D /* BRMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRMapViewController.h; sourceTree = "<group>"; };
 		FCB98BF4158A39C4007E979D /* BRMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRMapViewController.m; sourceTree = "<group>"; };
 		FCB98BF5158A39C4007E979D /* BRMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRMapViewController.xib; sourceTree = "<group>"; };
-		FCB98BFA158A3BCF007E979D /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressAnnotation.h; path = ../MapsDirectionsPOC/MapsDirectionsPOC/AddressAnnotation.h; sourceTree = "<group>"; };
-		FCB98BFB158A3BCF007E979D /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressAnnotation.m; path = ../MapsDirectionsPOC/MapsDirectionsPOC/AddressAnnotation.m; sourceTree = "<group>"; };
 		FCC8B8351589B01100101AAC /* BuddyRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC8B8391589B01100101AAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCC8B83B1589B01100101AAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -334,8 +334,8 @@
 		FCC8B83F1589B01100101AAC /* BuddyRide */ = {
 			isa = PBXGroup;
 			children = (
-				FCB98BFA158A3BCF007E979D /* AddressAnnotation.h */,
-				FCB98BFB158A3BCF007E979D /* AddressAnnotation.m */,
+				FC320506158D093300EF6FB3 /* AddressAnnotation.h */,
+				FC320507158D093300EF6FB3 /* AddressAnnotation.m */,
 				FCC8B89B1589C9E200101C42 /* BRUser.h */,
 				FCC8B89B1589C9E200101C3F /* BRUser.m */,
 				FCC8B89B1589C9E200101C3E /* BRViewControllerWithFacebook.h */,
@@ -729,7 +729,7 @@
 				FCB0D7C01589FE4300598A02 /* BRInviteViewController.m in Sources */,
 				FCC8B89B1589C9E200101C40 /* BRUser.m in Sources */,
 				FCB98BF6158A39C4007E979D /* BRMapViewController.m in Sources */,
-				FCB98BFC158A3BCF007E979D /* AddressAnnotation.m in Sources */,
+				FC320508158D093300EF6FB3 /* AddressAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,7 +772,7 @@
 				FCB0D7C11589FE4300598A02 /* BRInviteViewController.m in Sources */,
 				FCC8B89B1589C9E200101C41 /* BRUser.m in Sources */,
 				FCB98BF7158A39C4007E979D /* BRMapViewController.m in Sources */,
-				FCB98BFD158A3BCF007E979D /* AddressAnnotation.m in Sources */,
+				FC320509158D093300EF6FB3 /* AddressAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
